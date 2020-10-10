@@ -1,0 +1,36 @@
+CYCLIC BINARY STRING
+
+
+Given a binary string s of length n, you can cyclically shift this string any number of times. For example, consecutively applying cyclic shift operation to the binary string 
+"1011010" you will get "0101101", "1010110" and so on.
+Let X be the decimal representation of string s. Find the greatest power of 2 with which X can be divisible with, if it can be divisible with arbitrarily large power print "-1".
+For the result, you are required to print a single integer denoting the maximum power of 2 by which X can be divisible with.
+
+For example if string s = "1001", we can cyclically shift 1 time to get string "1100" which in decimal is 12 and is divisible with 2^2, hence the answer is 2.
+
+Input Format
+
+The first and only line of input contains string s.
+
+Output Format
+
+Print a single integer denoting the maximum power of 2 by which X can be divisible with.
+
+Sample Input 0
+0011
+
+Sample Output 0
+2
+
+Explanation 0
+We can cyclically shift the string 2 times to get "1100" which is divisible by 2^2 hence the answer is 2.
+
+Sample Input 1
+111
+
+Sample Output 1
+0
+
+Explanation 1
+
+The string will remain same even after any number of cyclic shifts, and the given string in decimal is 7, which is divisible by 2^0 hence the answer is 0.
