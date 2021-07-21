@@ -20,3 +20,4 @@ hexaToDecimal.bin
 .gitignore
 .cph
 decimalToBinart.bin
+decimalToBinary.exe
