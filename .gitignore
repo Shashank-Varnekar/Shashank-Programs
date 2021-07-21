@@ -16,3 +16,6 @@ octalToDecimal.bin
 pyramid.bin
 pytha_triplet.bin
 sum_of_n.bin
+hexaToDecimal.bin
+.gitignore
+.cph
